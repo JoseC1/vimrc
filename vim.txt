@@ -1,0 +1,22 @@
+colo badwolf
+"When at home 
+"colo elflord 
+ 
+"colo codeschool
+set nu
+set autoindent "turns on Autoindent 
+syntax on "Apparently I need this to have custom color schemes
+
+
+set ruler "Shows file title in terminal tab
+
+"THIS ALLOWS ME TO AutoIndent and AutoFill {}
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+inoremap {<cr> {<cr>}<c-o><s-o>
+inoremap [<cr> [<cr>]<c-o><s-o>
+inoremap (<cr> (<cr>)<c-o><s-o>
+
